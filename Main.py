@@ -7,7 +7,7 @@ sfr = SimpleFacerec()
 sfr.load_encoding_images("images/")  # Load encoded faces from a specified folder
 
 # Initialize camera capture
-cap = cv2.VideoCapture(1)  # 0 represents the default camera, you can change it to a different camera index if necessary
+cap = cv2.VideoCapture(0)  # 0 represents the default camera, you can change it to a different camera index if necessary
 
 while True:
     # Capture a frame from the camera
